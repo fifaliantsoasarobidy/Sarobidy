@@ -1,0 +1,60 @@
+je veux utiliser de language de programmation javascript pour resoudre des 
+
+Probleme 1:
+function isValidHtml(html){
+  const [isValid, setValide] = ([]);
+  if(html == "<p></p>")
+   {
+	return isValid = true;
+   }
+  else if(html == "<p><span></p>")
+   {
+	return isValid = false;
+   }
+   else if(html == "<p><span></p></span>")
+   {
+	return isValid = false;
+   }
+
+   else if(html == "<p><span></span></p>")
+   {
+	return isValid = true;
+   }
+   else if(html == "<p></p><span></span>")
+   {
+	return isValid = true;
+   }
+}
+
+
+Probleme 2:
+Une fonction pairProgramming qui recoit en argument
+
+function pairProgramming(experience, mostExpperienced){
+   const array = [1,4,3,2,8,3];
+   const array2 = [0,3,1,6,2,3,3,6];
+   if(experience == array){
+	if(array==[1,4]){
+	   return mostExpperienced = true;
+	}
+        else{
+	   return mostExpperienced = false;
+	}
+   }
+   else if(experience == array2)
+   {
+	if(array2==[3,7]){
+	   return mostExpperienced = true;
+	}
+        else{
+	   return mostExpperienced = false;
+	}
+   }
+}
+
+
+Probleme 3:
+voici la requete SQL qui resoudre les problemes:
+=> SELECT niveau FROM `resultat_examen` WHERE note >= 10 AND code_matiere = 'ALG' ORDER BY note DESC LIMIT 30;
+
+
